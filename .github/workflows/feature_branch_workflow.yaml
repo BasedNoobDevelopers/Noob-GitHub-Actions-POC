@@ -33,3 +33,5 @@ jobs:
     with:
         action: ${{inputs.action}}
         feature_branch: feature/${{github.event.inputs.feature_branch}}
+    secrets:
+      ACTION_TOKEN: "UYI"
